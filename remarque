@@ -1,0 +1,11 @@
+les url pour tester sur postman (faudras ajuster le url)
+lister les pays d'un continent :
+  http://localhost:8888/tp-php-1-sujet/api/router.php?version=v2&controller=countries&method=list&code=EU&format=txt/csv
+Accède à un pays de continent :
+  http://localhost:8888/tp-php-1-sujet/api/router.php?version=v2&controller=countries&method=read&format=txt/csv&ccode=EU&pcode=FR
+Crée un pays de continent :
+  http://localhost:8888/tp-php-1-sujet/api/router.php?version=v2&controller=countries&method=create&format=json&ccode=EU
+Modifie un pays de continent :
+  http://localhost:8888/tp-php-1-sujet/api/router.php?version=v2&controller=countries&method=update&format=json&pcode=ia
+Supprime un pays de continent : 
+  http://localhost:8888/tp-php-1-sujet/api/router.php?version=v2&controller=countries&method=delete&ccode={ccode}&pcode=ia
